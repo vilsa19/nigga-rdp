@@ -4,7 +4,7 @@ net config server /srvcomment:"Windows Server By LittleFox" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
 net user Titing 2Mulak? /add >nul
-net localgroup administrators JEROME-KAWATAN /add >nul
+net localgroup administrators LittleFox /add >nul
 net user LittleFox /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
